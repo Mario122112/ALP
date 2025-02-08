@@ -10,6 +10,7 @@ const app = () => {
       <Text>Hola Mundo</Text>
         <TouchableOpacity>
           <Link href={"/autentificacion"}>Autentificacion</Link>
+          <Link href={"/listado"}>Listado</Link>
         </TouchableOpacity>
     </View>
   )
