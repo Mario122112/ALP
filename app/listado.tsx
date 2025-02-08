@@ -67,8 +67,7 @@ const estilos = StyleSheet.create({
   datos:{
     flexDirection:"row",
     alignItems:"center",
-    marginBottom:5,
-    margin:10,
+    marginTop:12,
   },
   contenedor_datos:{
     flex:1,
