@@ -14,10 +14,10 @@ const auth = () => {
         <Text style={estilos.textoCaja}>Acerque su tarjeta de estudiante al lector NFC</Text>
       </View>
       <TouchableOpacity>
-        <Link href={"/auth_bien"} style={{color:'#2BD31B'}}>SALIDA CORRECTA</Link>
+        <Link href={"/auth_bien"} style={[{color:'#2BD31B'},{fontSize:24}]}>SALIDA CORRECTA</Link>
       </TouchableOpacity>
       <TouchableOpacity>
-        <Link href={"/auth_mal"} style={{color:'#BF1313'}}>SALIDA INCORRECTA</Link>
+        <Link href={"/auth_mal"} style={[{color:'#BF1313'},{fontSize:24}]}>SALIDA INCORRECTA</Link>
       </TouchableOpacity>
       <Image source={require("../assets/images/lector.png")} style={estilos.lector}/>
     </View>
@@ -41,7 +41,7 @@ const estilos = StyleSheet.create({
   },
   texto: {
     color: 'white',
-    fontSize: 44,
+    fontSize: 64,
     fontWeight: 'bold',
     textShadowColor: 'black',
     textShadowRadius: 1,
@@ -62,16 +62,17 @@ const estilos = StyleSheet.create({
     marginBottom:90,
   },
   textoCaja:{
-    fontSize: 24,
+    fontSize: 40,
     fontWeight: 'bold',
     padding:15,
+    textAlign:'center',
   },
   lector:{
     position: 'absolute', 
     bottom: -20,            
-    left: 10,               
-    height: 100,      
-    width: 200,            
+    left: 40,               
+    height: 150,      
+    width: 250,            
   },
 });
 
