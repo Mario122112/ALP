@@ -38,15 +38,15 @@ const styles = StyleSheet.create({
     padding: 20,
   },
   title: {
-    fontSize: 32,
+    fontSize: 70,
     fontWeight: 'bold',
     color: '#fff',
     textAlign: 'center',
-    marginBottom: 20,
+    marginBottom: 50,
   },
   image: {
-    width: 200,
-    height: 200,
+    width: 300,
+    height: 300,
   },
 });
 

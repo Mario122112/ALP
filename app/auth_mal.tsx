@@ -12,8 +12,8 @@ const mal = () => {
       resizeMode="cover"
     >
       <View style={styles.container}>
-        <Text style={styles.title}>ERROR DE VALIDACION</Text>
-        <Text style={styles.title}>INTENTELO DE NUEVO</Text>
+        <Text style={styles.title}>ERROR DE VALIDACIÓN</Text>
+        
         <Link href="/autentificacion">
         <Image
           source={require('../assets/images/cross.png')}
@@ -38,15 +38,15 @@ const styles = StyleSheet.create({
     padding: 20,
   },
   title: {
-    fontSize: 32,
+    fontSize: 70,
     fontWeight: 'bold',
     color: '#fff',
     textAlign: 'center',
-    marginBottom: 20,
+    marginBottom: 50,
   },
   image: {
-    width: 200,
-    height: 200,
+    width: 400,
+    height: 400,
   },
 });
 
